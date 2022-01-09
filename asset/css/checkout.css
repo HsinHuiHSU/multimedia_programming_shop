@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta Stencil', "微軟正黑體";
+    box-sizing: border-box;
+}
+
+.BBG {
+    width: 50%;
+    background-color: rgb(219, 192, 192);
+    opacity: 0.7;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.checkout {
+    margin: auto;
+    width: 70%;
+    cursor: auto;
+}
+
+.BACK {
+    margin: auto;
+    text-align: center;
+}
+
+.BACK button {
+    border-radius: 10px;
+}
+
+.BACKBTN {
+    width: 100px;
+    margin: 0 2.5%;
+}
+
+.SENDOUTBTN {
+    width: 100px;
+    margin: 0 2.5%;
+    transition: 2s;
+}
+
+.BACKBTN {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(235, 235, 235);
+    background-color: transparent;
+    border: 1px solid rgb(109, 91, 91);
+}
+
+
+.SENDOUTBTN {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(235, 235, 235);
+    background-color: transparent;
+    border: 1px solid rgb(109, 91, 91);
+}
+.CK input{
+    border-radius: 10px;
+}
+.BACK input{
+    border-radius: 15px;
+}
+.CK textarea {
+    border-radius: 15px;
+    width: 100%;
+}
+.CK h3{
+    text-align: center;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            、                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

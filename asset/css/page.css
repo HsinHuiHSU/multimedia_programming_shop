@@ -1,0 +1,212 @@
+.main{
+    margin-top:40px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 30px;
+    width:70%;
+    border:none;
+    display:flex;
+    background-color: rgba(216, 190, 190, 0.658);
+    border-radius: 15px;
+    outline: none;
+}
+.pimages{
+    max-width:50%;
+    padding:45px 20px 20px 20px;
+
+}
+ .pimages img{
+   
+    height: 300px;
+    width: 350px;
+              
+}
+.introducee{
+    width:50%;
+    padding:10px;
+    opacity: 0.8;
+}
+.introtitle{
+    border-bottom: 1px dotted;
+}
+
+
+.introbuy{
+    display:flex;
+    border-bottom: 1px dotted;
+}
+.introbuy select{
+    margin-left:10px;
+    width:100px;
+    height:30px;
+}
+.introbuy a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    border-radius:5px;
+}
+.ccar{
+    margin-left:80px;
+    background-color:#bb7272;
+    height:50px;
+    width: 90px;
+    padding: 10px;
+}
+.buyy{
+    margin-left:10px;
+    background-color:#bb7272;
+    height:50px;
+    width: 100px;
+}
+.tobuy{
+    padding-top:10px;
+    display:flex;
+    height: 80px;
+    width: 210px;
+}
+
+.part2{
+    width:210px;height: 50px; 
+    line-height: 50px;
+    background-color:#cfaeae9d;
+    border-radius:10px;
+    text-align: center;
+    margin:0px auto;
+}
+.pc{font-size: 25px;
+    font-family: marker felt, fantasy ;
+    opacity: 0.8;
+
+}
+.pc:hover{
+    color: #bb7272;
+}
+
+.comm{width:60%;height: 100px;
+    background-color:#FFECEC;
+    border-radius:10px;
+    margin:0px auto;
+    display: flex;
+    opacity: 0.8;
+}
+.comm1{
+    width:70%;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.comuser{
+    font-size: 20px;
+}
+.comusertext{
+    width:90%;
+    
+
+}
+
+.part3{
+    width:300px;height: 50px; 
+    line-height: 50px;
+    background-color:#cfaeae9d;
+    border-radius:10px;
+    text-align: center;
+    margin:30px auto;
+}
+.pcs{font-size: 25px;
+    font-family: marker felt, fantasy ;}
+.pcs:hover{
+    color: #bb7272;
+}
+/*星星*/
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ddd; /*背景星星顏色*/
+    overflow: hidden;
+    font-size: 35px; /*調整字體大小可放大縮小星星*/
+    text-shadow: 0px 1px 0 #999;
+    letter-spacing: 20px;
+    margin-top: 20px;
+    }
+    .full_star {
+    width: 100%; /*調整寬度可變更星等*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #bb7272; /*前景星星顏色*/
+    }
+.full_starr {
+        width: 80%; /*調整寬度可變更星等*/
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #bb7272; /*前景星星顏色*/
+        }
+.full_starrr {
+            width: 80%; /*調整寬度可變更星等*/
+            position: absolute;
+            left: 0;
+            top: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #bb7272; /*前景星星顏色*/
+            }
+.full_starrrr {
+                width: 100%; /*調整寬度可變更星等*/
+                position: absolute;
+                left: 0;
+                top: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                color: #bb7272; /*前景星星顏色*/
+                }
+
+
+.pagebtn{
+    text-align: center;
+    
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s linear;
+}
+.contentttt{
+    width: 400px;
+    height: 250px;
+}
+.pagebtn>p{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 17px;
+}
+.pagebtn::before{
+    content: "";
+    width: 0%;
+    height: 0%;
+    display: block;
+    background-color: rgba(231, 187, 187, 0.473);
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.pagebtn:hover{
+    color: #fff;
+}
+.pagebtn:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}

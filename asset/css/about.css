@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta Stencil',"微軟正黑體";
+    box-sizing: border-box;
+}
+        
+.header {
+            width: 100%;
+            height: 200px;
+            background-image: url("../image/bb.jpg");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+        }
+
+
+
+.lcontainer {
+            width: 1400px;
+            margin: auto;
+            position: relative;   
+        }
+
+.teammember {
+            height: 100vh;
+            padding: 60px 15px 60px 15px;
+            background-image: url("../image/bb.jpg");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+
+        }
+
+.lcard{
+            width: 300px;
+            float: left;
+            padding: 0px 15px 0px 18px;
+            margin-left: 30px;
+           border-radius: 10%;
+ }
+
+ .infor {
+            padding: 60px;
+            background: rgb(219, 192, 192);
+            width: 120%;
+            height: 600px;
+            margin: 50px auto 10px auto;
+            opacity: 0.9;
+            transition: margin 0.8s ease;
+            border-radius:5%;
+        }
+
+
+.infor:hover {
+            margin-top: -18px;
+        }
+
+
+        
+img {
+            width: 200px;
+            height: 500x;
+            margin: 10px ;
+            border-radius: 15%;
+        }
+
+p{
+            font-size: 22px;
+            margin: 20px 0px 10px;
+            color: #36383a;
+            font-weight: bold;
+            text-align: center;
+        }
+
+.infor h1 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0px 0px 15px;
+            color: #6b6e70;
+            text-align: center;
+        }
+.infor h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 15px;
+    color: #6b6e70;
+    text-align: center;
+}
+
+        
+ .footer {
+            width: 100%;
+            height: 150px;
+            background-color: rgb(216, 190, 190);
+            color:#6b6e70;
+            padding: 10px;
+            text-align: center;
+            opacity: 0.8;
+        }
+.textttcolor {
+            
+            text-align: center;
+            transition: transform 1s ease;
+            }
+.textttcolor:hover{
+            transform: scale(1.08);
+            color: rgb(204, 109, 109);
+            }
+.textttcolorr {
+            
+                text-align: center;
+                transition: transform 1s ease;
+                }
+.textttcolorr:hover{
+                transform: scale(1.08);
+                color: rgb(19, 18, 18);
+                }

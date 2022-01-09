@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <style>
+        @import url("asset/css/indext.css");
+        @import url("asset/css/sign.css");
+        @import url("asset/css/card.css");
+        @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-rgb(248, 243, 236)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="font-family: marker felt, fantasyv; font-size: 21px;"
+                id="tttop">Labor and Love</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="cake.html" style="font-family: marker felt">CAKE</a>
+                            </li>
+                            <li><a class="dropdown-item" href="cookie and tea.html"
+                                    style="font-family: marker felt">COOKIE</a></li>
+                            <li><a class="dropdown-item" href="cookie and tea.html#v"
+                                    style="font-family: marker felt">OTHERS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Information and QA.html"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">Imformation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Information and QA.html#QA"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">Q&A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ft"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html"
+                            style="font-family: marker felt, fantasy ;font-size: 20px;">Member</a>
+                    </li>
+                </ul>
+                <button type="button" class="sign"> <a href="sign.html" class="textdenone"
+                       >登入/註冊</a> </button>
+                <a href="shopcar.html" class="two"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                        fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg></a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search" style="color: black;">
+                    <button class="btn btn-outline-success small1" type="submit" style="background-color: rgb(216, 190, 190); border-color: rgb(255, 253, 254); color: black;">搜尋
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="id01" class="modal">
+
+        <form class="modal-content small" action="/action_page.php">
+            <div class="container">
+                <h1>登入</h1>
+                <p>輸入您的電子郵件.</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+                </p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="bg3">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#z" style="font-size: 20px; font-weight: bold;">餅乾</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#v" style="font-size: 20px;font-weight: bold;">小蛋糕與其它點心</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#x" style="font-size: 20px;font-weight: bold;">蠟燭與配件</a>
+            </li>
+        </ul>
+    </div>
+    <div id="z">
+        <table class="o">
+            <tr class="i">
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page10.html"> <img src="asset/image/cookie/cookie1.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Cookie</span>
+                                <span class="tag">Red Tea</span>
+                                <div class="name">伯爵紅茶餅乾</div>
+                                <p>將TWININGS伯爵茶葉磨至極細, 經過烘烤引發高雅的佛手柑香氣</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page11.html"> <img src="asset/image/cookie/cookie2.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Cookie</span>
+                                <span class="tag">Matcha</span>
+                                <div class="name">日式抹茶餅乾</div>
+                                <p>使用丸久小山園的抹茶粉，以薄片的方式呈現，讓您享受頂級抹茶的極致美味。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page12.html"> <img src="asset/image/cookie/cookie3.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Cookie</span>
+                                <span class="tag">Chocolate</span>
+                                <div class="name">巧克力餅乾</div>
+                                <p>以高純度苦甜巧克力為基底, 加入巧克力豆與核桃, 多層次口感的濃郁風味</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bg3">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#z" style="font-size: 20px; font-weight: bold;">餅乾</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#v" style="font-size: 20px;font-weight: bold;">小蛋糕與其它點心</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#x" style="font-size: 20px;font-weight: bold;">蠟燭與配件</a>
+            </li>
+        </ul>
+    </div>
+    <div id="v">
+        <table class="o">
+            <tr class="i">
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page13.html"> <img src="asset/image/small/1.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Dessert</span>
+                                <span class="tag">Lemon</span>
+                                <div class="name">檸檬塔</div>
+                                <p>新鮮檸檬熬煮出濃郁美味的檸檬內餡，香酥的塔皮中刷上薄層焦糖，酸甜和諧的絕妙滋味。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page14.html"> <img src="asset/image/small/2.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Dessert</span>
+                                <span class="tag">Mashed Taro</span>
+                                <div class="name">芋泥鹹蛋黃濃起司</div>
+                                <p>涮嘴的鹹蛋黃拌入濃醇的奶油乳酪，配上紫色芋泥餡與芋頭顆粒，讓每一口都充滿驚喜。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page15.html"> <img src="asset/image/small/3.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Dessert</span>
+                                <span class="tag">Matcha</span>
+                                <div class="name">抹茶漸層慕斯(單片)</div>
+                                <p>五種濃度的抹茶乳酪起司，不添加水與麵粉，只以鮮乳與抹茶粉襯托起司的美味。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bg3">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#z" style="font-size: 20px; font-weight: bold;">餅乾</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#c" style="font-size: 20px;font-weight: bold;">小蛋糕與其它點心</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#x" style="font-size: 20px;font-weight: bold;">蠟燭與配件</a>
+            </li>
+        </ul>
+    </div>
+    <div id="x">
+        <table class="o">
+            <tr class="i">
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page16.html"> <img src="asset/image/others/1.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Others</span>
+                                <span class="tag">Color</span>
+                                <div class="name">彩色蠟燭組(五入)</div>
+                                <p>除非你家很有錢，否則這很貴，買了很浪費社會資源。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page17.html"> <img src="asset/image/others/2.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Others</span>
+                                <span class="tag">Brand</span>
+                                <div class="name">HAPPY BIRTHDAY插牌</div>
+                                <p>購買整顆蛋糕可免費附贈插牌乙個，會隨所選擇蠟燭一同包裝。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ccontainer">
+                        <div class="card">
+                            <a href="page18.html"> <img src="asset/image/others/3.jpg" alt="#" class="cardd"></a>
+                            <div class="card-detail">
+                                <span class="tag">Others</span>
+                                <span class="tag">Candle</span>
+                                <div class="name">數字蠟燭(單支)</div>
+                                <p>購買蛋糕可免費選擇歲數，請在備註告知需要的數字。</p>
+                                <button>加入購物車</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer id="ft">
+        <div class="contactspace">
+            <h3>
+                | contact us |<br>
+                Phone | 0933-333-333 |<br>
+                Email | laboramdlove0000@gmail.com |<br>
+
+                Copyright © 2021 labor and love 版權所有
+            </h3>
+        </div>
+    </footer>
+    <a href="#">
+        <div class="bt">
+            <h1 style="font-family: marker felt, fantasy;">TOP</h1>
+        </div>
+    </a>
+</body>
+<script src="asset/js/sign.js"></script>
+</html>

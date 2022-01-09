@@ -1,0 +1,110 @@
+* {
+    font-family: 微軟正黑體;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(206, 195, 195);
+}
+
+.LO {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+
+.LP h5 {
+    margin: 17px;
+    color: #000000;
+}
+
+.SP h5 {
+
+    margin: 17px;
+    color: #000000;
+
+}
+
+.LP h5:hover {
+    color: rgb(226, 163, 163);
+}
+.SP h5:hover {
+    color: rgb(226, 163, 163);
+}
+
+.LP h3,
+#uname,
+#pass,
+#name,
+#cpass,
+#uname2,
+#pass2 {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    color: #000000;
+}
+.SP h3,
+#uname,
+#pass,
+#name,
+#cpass,
+#uname2,
+#pass2 {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    color: #000000;
+}
+
+#cont1,
+#cont2 {
+    margin: 65px;
+    padding: 12px;
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    border-radius: 15px;
+    border-top: 10px solid #c3b4b0;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    text-align: center;
+}
+
+#cont2 {
+    visibility: hidden;
+    height: 380px;
+}
+
+
+
+.submit {
+    color: white;
+    background: #e7bedc;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 0px;
+    opacity: 0.8;
+}
+
+.submit:hover {
+    background: #dbcbda;
+}
+
+
+
+input {
+    padding: 5px;
+    border: none;
+    border: solid 2px rgb(216, 190, 190);
+    border-radius: 5px;
+}
+.QAZ{
+    height: 800px;
+}
